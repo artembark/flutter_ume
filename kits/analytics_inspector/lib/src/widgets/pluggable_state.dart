@@ -175,7 +175,7 @@ class AnalyticsPluggableState extends State<AnalyticsInspector> {
                       FilterButton(
                         text: 'search',
                         type: AEventType.search,
-                        color: Colors.red,
+                        color: Colors.yellow,
                       ),
                     ],
                   ),
