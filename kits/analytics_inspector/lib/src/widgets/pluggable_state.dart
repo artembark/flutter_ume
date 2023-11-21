@@ -172,6 +172,11 @@ class AnalyticsPluggableState extends State<AnalyticsInspector> {
                         type: AEventType.ecommerce,
                         color: Colors.red,
                       ),
+                      FilterButton(
+                        text: 'search',
+                        type: AEventType.search,
+                        color: Colors.red,
+                      ),
                     ],
                   ),
                 ),
